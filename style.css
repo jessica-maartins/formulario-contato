@@ -1,0 +1,115 @@
+
+
+body {
+  background: url('./img/download.jpg') no-repeat center center fixed; 
+  background-size: cover; 
+  color: white; 
+  font-family: Arial, sans-serif; 
+}
+
+/* === FORMULÁRIO === */
+
+.formulario-container {
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 10px; 
+  border: 2px solid #c7ff00; 
+  box-shadow: 0px 0px 15px #c7ff00; 
+  padding: 20px; 
+  max-width: 500px;
+  margin: 50px auto; 
+}
+
+/* Título do formulário */
+
+.titulo-form {
+  text-align: center; 
+  color: #c7ff00; 
+}
+
+/* === CAMPOS DO FORMULÁRIO === */
+
+input, select, textarea {
+  width: 100%;
+  padding: 10px; 
+  border-radius: 5px; 
+  border: 1px solid gray; 
+}
+
+span{
+  color: #c7ff00;
+}
+
+
+
+.input-group-text {
+  background-color: #c7ff00; 
+  border: none; 
+  color: black; 
+}
+
+/* === BOTÕES === */
+
+.btn-enviar {
+  background-color: #c7ff00;
+  color: black; 
+  border: none; 
+  padding: 10px; 
+  border-radius: 5px; 
+  cursor: pointer;
+}
+
+
+.btn-limpar {
+  background-color: gray; 
+  color: white; 
+  border: none; 
+  padding: 10px; 
+  border-radius: 5px; 
+  cursor: pointer;
+}
+
+/* === GOOGLE MAPS === */
+
+.mapa-container {
+  text-align: center;
+  margin: 50px 0; 
+}
+
+/* Ajustes no mapa */
+.mapa {
+  width: 80%; 
+  height: 300px;
+  filter: grayscale(100%) invert(92%) contrast(83%);
+  border: 2px solid #c7ff00; 
+  border-radius: 10px; 
+}
+
+/* === ÍCONES DE REDES SOCIAIS === */
+
+.redes-sociais {
+  text-align: center;
+  margin: 20px 0; 
+}
+
+/* Estilização dos ícones */
+.social-icon {
+  color: #c7ff00; 
+  font-size: 30px; 
+  margin: 0 10px; 
+  transition: transform 0.3s;
+}
+
+/* Efeito ao passar o mouse nos ícones */
+.social-icon:hover {
+  transform: scale(1.2); 
+}
+
+/* === RODAPÉ === */
+
+.rodape {
+  text-align: center; 
+  margin-top: 20px; 
+  padding: 10px; 
+  background: black; 
+  box-shadow: 0px 0px 5px #c7ff00;
+}
